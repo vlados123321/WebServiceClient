@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">WebServiceClient</string>
+    <string name="app_name">RestApiClient</string>
+    <string name="get">Get Single User</string>
+    <string name="post">Create User</string>
+    <string name="delete">Delete User</string>
+    <string name="body">Body</string>
+    <string name="name">Name</string>
+    <string name="enter_body">Enter body</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_user_id">Enter user id</string>
+    <string name="put">Update User</string>
 </resources>

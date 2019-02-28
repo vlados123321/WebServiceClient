@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextPutID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextPutName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:ems="10"
+        android:hint="@string/enter_user_id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPutJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:hint="Enter Job"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:text="Update user" />
+</RelativeLayout>
